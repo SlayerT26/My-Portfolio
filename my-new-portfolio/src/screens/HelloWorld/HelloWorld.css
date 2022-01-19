@@ -1,0 +1,192 @@
+.HelloWorldPage {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 10% 80% 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.HelloWorldMainDiv {
+  width: 140vh;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 15% 70% 15%;
+}
+
+.HelloWorldDiv1 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.PythonDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Python {
+  font-size: 100%;
+  font-family: "Poppins", sans-serif;
+  color: rgb(51, 162, 162);
+}
+.PythonSpan1 {
+  color: aqua;
+}
+.PythonSpan2 {
+  color: rgb(255, 184, 92);
+}
+
+.JavaScriptDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.JavaScript {
+  font-size: 100%;
+  font-family: "Poppins", sans-serif;
+  color: rgb(44, 179, 44);
+}
+.JavaScriptSpan1 {
+  color: rgb(222, 222, 2);
+}
+.JavaScriptSpan2 {
+  color: rgb(0, 145, 255);
+}
+.JavaScriptSpan3 {
+  color: rgb(133, 181, 61);
+}
+
+#HelloWorldID {
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.HelloWorldH1 {
+  font-family: "Poppins", sans-serif;
+  animation-name: HelloWorld;
+  animation-duration: 3.8s;
+  font-size: 500%;
+  color: black;
+  width: 100%;
+}
+.HelloWorldH4 {
+  margin-top: 0%;
+}
+
+.HelloWorldSpan1 {
+  font-size: 25%;
+}
+
+.HelloWorldDiv2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.C {
+  font-family: "Poppins", sans-serif;
+  color: rgb(116, 10, 45);
+  font-size: 100%;
+}
+
+.RubyDiv {
+  display: flex;
+  justify-content: flex-end;
+}
+.Ruby {
+  font-family: "Poppins", sans-serif;
+  color: rgb(161, 230, 1);
+  font-size: 100%;
+}
+.RubySpan1 {
+  color: rgb(161, 230, 1);
+}
+.RubySpan2 {
+  color: rgb(142, 142, 142);
+}
+
+.ScrollDiv {
+  background-color: rgba(187, 187, 187, 0.543);
+  animation-name: ScrollDiv;
+  animation-duration: 3.8s;
+  display: flex;
+  justify-content: center;
+}
+
+#ScrollDivH3 {
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 130%;
+}
+
+@keyframes ScrollDiv {
+  0% {
+    background-color: whitesmoke;
+    color: whitesmoke;
+  }
+  75% {
+    background-color: whitesmoke;
+    color: whitesmoke;
+  }
+}
+@keyframes HelloWorld {
+  0% {
+    color: whitesmoke;
+  }
+  50% {
+    color: whitesmoke;
+  }
+  75% {
+    color: whitesmoke;
+  }
+  100% {
+    color: black;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .HelloWorldMainDiv {
+    width: 160vh;
+  }
+}
+@media screen and (max-width: 425px) {
+  .HelloWorldPage {
+    height: 170vh;
+  }
+  .HelloWorldMainDiv {
+    width: 140vh;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 30% 40% 30%;
+  }
+  .HelloWorldDiv1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .Python {
+    font-size: 275%;
+  }
+  .JavaScript {
+    font-size: 275%;
+  }
+  .HelloWorldDiv2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .C {
+    font-size: 275%;
+  }
+  .Ruby {
+    font-size: 275%;
+  }
+  .ScrollDivH3 {
+    font-size: 200%;
+    margin-bottom: 1%;
+  }
+}

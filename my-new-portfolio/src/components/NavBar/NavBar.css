@@ -1,0 +1,39 @@
+.NavBar {
+  display: grid;
+  grid-template-columns: 33% 17% 50%;
+  align-items: center;
+  background-color: rgb(205, 199, 199);
+  position: fixed;
+  width: 100%;
+}
+
+.NavBarName {
+  text-align: center;
+}
+
+.NavDivList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.NavTitleList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.NavList {
+  list-style-type: none;
+}
+
+.NavLink {
+  text-decoration: none;
+  color: black;
+  font-style: bold italic;
+  font-size: 130%;
+  font-family: "Open Sans", sans-serif;
+}
