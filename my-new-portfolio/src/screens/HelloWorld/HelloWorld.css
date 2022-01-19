@@ -5,6 +5,7 @@
   grid-template-rows: 10% 80% 10%;
   justify-content: center;
   align-items: center;
+  background-color: rgba(193, 184, 184, 0.2);
 }
 
 .HelloWorldMainDiv {
@@ -26,7 +27,7 @@
   align-items: center;
 }
 .Python {
-  font-size: 150%;
+  font-size: 180%;
   font-family: "Poppins", sans-serif;
   color: rgb(51, 162, 162);
 }
@@ -43,7 +44,7 @@
   align-items: center;
 }
 .JavaScript {
-  font-size: 150%;
+  font-size: 180%;
   font-family: "Poppins", sans-serif;
   color: rgb(44, 179, 44);
 }
@@ -69,7 +70,8 @@
 .HelloWorldH1 {
   font-family: "Poppins", sans-serif;
   animation-name: HelloWorld;
-  animation-duration: 3.8s;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
   font-size: 500%;
   color: black;
   width: 100%;
@@ -91,7 +93,7 @@
 .C {
   font-family: "Poppins", sans-serif;
   color: rgb(116, 10, 45);
-  font-size: 140%;
+  font-size: 180%;
 }
 
 .RubyDiv {
@@ -100,8 +102,8 @@
 }
 .Ruby {
   font-family: "Poppins", sans-serif;
-  color: rgb(161, 230, 1);
-  font-size: 140%;
+  color: rgb(163, 171, 25);
+  font-size: 180%;
 }
 .RubySpan1 {
   color: rgb(161, 230, 1);
@@ -127,26 +129,29 @@
 
 @keyframes ScrollDiv {
   0% {
-    background-color: whitesmoke;
-    color: whitesmoke;
+    background-color: rgba(193, 184, 184, 0.2);
+    color: rgba(193, 184, 184, 0.2);
   }
   75% {
-    background-color: whitesmoke;
-    color: whitesmoke;
+    background-color: rgba(193, 184, 184, 0.2);
+    color: rgba(193, 184, 184, 0.2);
   }
 }
 @keyframes HelloWorld {
   0% {
-    color: whitesmoke;
+    color: rgba(193, 184, 184, 0.2);
+  }
+  25% {
+    color: rgba(193, 184, 184, 0.2);
   }
   50% {
-    color: whitesmoke;
+    color: black;
   }
-  75% {
-    color: whitesmoke;
+  85% {
+    color: rgba(193, 184, 184, 0.2);
   }
   100% {
-    color: black;
+    color: rgba(193, 184, 184, 0.2);
   }
 }
 
