@@ -34,7 +34,8 @@
   height: 30vh;
 }
 .Time2Riddle {
-  height: 10px;
+  height: 85%;
+  width: 100%;
 }
 .Project1Info {
   margin-right: 5%;
@@ -79,7 +80,7 @@
 }
 .Tech-Care {
   width: 100%;
-  height: 65%;
+  height: 60%;
 }
 .Project2Info {
   margin-right: 5%;
@@ -112,7 +113,7 @@
 }
 .Party-On {
   width: 100%;
-  height: 100%;
+  height: 90%;
 }
 .Project3Info {
   margin-right: 5%;

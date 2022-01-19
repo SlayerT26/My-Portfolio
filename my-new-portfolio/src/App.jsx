@@ -1,6 +1,6 @@
 import "./App.css";
 import { Layout } from "./components";
-import { Route } from "react-router";
+
 import HelloWorld from "./screens/HelloWorld/HelloWorld";
 import About from "./screens/About/About";
 import Projects from "./screens/Projects/Projects";
@@ -11,18 +11,10 @@ function App() {
     <>
       <div className="AppDiv">
         <Layout>
-          <Route path="/">
-            <HelloWorld />
-          </Route>
-          <Route>
-            <About />
-          </Route>
-          <Route>
-            <Projects />
-          </Route>
-          <Route>
-            <Contact />
-          </Route>
+          <HelloWorld />
+          <About />
+          <Projects />
+          <Contact />
         </Layout>
       </div>
     </>

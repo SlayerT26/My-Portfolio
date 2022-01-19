@@ -19,11 +19,11 @@ function Projects() {
         <div className="ProjectGridDiv2">
           <div className="Project1">
             <div className="Project1Img">
-              {/* <img
+              <img
                 className="Time2Riddle"
                 src="https://i.imgur.com/PS1xGAT.png"
                 alt="Website1"
-              /> */}
+              />
             </div>
             <div className="Project1Info">
               <h1 className="Project1Title">Time2Riddle</h1>

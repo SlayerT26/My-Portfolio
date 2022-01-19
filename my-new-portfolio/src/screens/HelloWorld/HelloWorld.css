@@ -26,7 +26,7 @@
   align-items: center;
 }
 .Python {
-  font-size: 100%;
+  font-size: 150%;
   font-family: "Poppins", sans-serif;
   color: rgb(51, 162, 162);
 }
@@ -43,7 +43,7 @@
   align-items: center;
 }
 .JavaScript {
-  font-size: 100%;
+  font-size: 150%;
   font-family: "Poppins", sans-serif;
   color: rgb(44, 179, 44);
 }
@@ -91,7 +91,7 @@
 .C {
   font-family: "Poppins", sans-serif;
   color: rgb(116, 10, 45);
-  font-size: 100%;
+  font-size: 150%;
 }
 
 .RubyDiv {
@@ -101,7 +101,7 @@
 .Ruby {
   font-family: "Poppins", sans-serif;
   color: rgb(161, 230, 1);
-  font-size: 100%;
+  font-size: 150%;
 }
 .RubySpan1 {
   color: rgb(161, 230, 1);
